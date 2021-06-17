@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BarGraph</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body oninput="barChart();">
+    <main>
+        <div class="main-base">
+            <div id="main">
+                <div class="indicators">
+                    <table>
+                        <tbody>
+                            <tr>
+                                <td>35</td>
+                                <td>30</td>
+                                <td>25</td>
+                                <td>20</td>
+                                <td>15</td>
+                                <td>10</td>
+                                <td>5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="bars">
+                    <div id="bar1"></div>
+                    <div id="bar2"></div>
+                    <div id="bar3"></div>
+                    <div id="bar4"></div>
+                    <div id="bar5"></div>
+                    <div id="bar6"></div>
+                </div>
+            </div>
+            <div class="types">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <span>Item 1</span> 
+                                <input id="itm1" value="8.16" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                            <td>
+                                <span>Item 2</span> 
+                                <input id="itm2" value="10.49" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                            <td>
+                                <span>Item 3</span> 
+                                <input id="itm3" value="16.31" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                            <td>
+                                <span>Item 4</span> 
+                                <input id="itm4" value="22.14" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                            <td>
+                                <span>Item 5</span> 
+                                <input id="itm5" value="8.16" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                            <td>
+                                <span>Item 6</span> 
+                                <input id="itm6" value="5.82" min="0" max="35" placeholder="insert" type="number">
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </main>
+
+    <!-- custom js -->
+    <script src="main.js"></script>
+</body>
+</html>

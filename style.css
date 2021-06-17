@@ -1,0 +1,96 @@
+* { 
+    padding: 0px; 
+    margin: 0px; 
+    box-sizing: border-box; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+main { 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    flex-basis: 100%;
+}
+.main-base {
+    overflow-x: auto;
+}
+#main { 
+    width: 550px;  
+    height: 300px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-end; 
+}
+#main .bars {
+    display: flex;
+    align-items: flex-end;
+    border: 1px solid rgb(0, 0, 0);
+    height: 300px;
+    width: 523px;
+    column-gap: 11px;
+}
+#main .bars div {
+    width: 80px;
+    transition: height 0.9s ease;
+    -webkit-transition: height 0.9s ease;
+    -moz-transition: height 0.9s ease;
+    -ms-transition: height 0.9s ease;
+    -o-transition: height 0.9s ease;
+}
+#bar1 { 
+    background-color: coral; 
+    height: 70px; 
+}
+#bar2 { 
+    background-color: lightblue; 
+    height: 90px; 
+}
+#bar3 { background-color: khaki; 
+    height: 140px; 
+}
+#bar4 { 
+    background-color: pink; 
+    height: 190px; 
+}
+#bar5 { 
+    background-color: lightgrey; 
+    height: 70px; 
+}
+#bar6 { 
+    background-color: lightgreen; 
+    height: 50px; 
+}
+table { border-collapse: collapse; }
+.types {
+    margin-left: 23.89px;
+    width: 526px;
+}
+.types table tbody tr {
+    width: 550px;
+}
+.types table tbody tr td {
+    width: 87px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+}
+.types table tbody tr td span {
+    font-weight: bold;
+}
+.types table tbody tr td input {
+    width: 76px;
+    height: 25px;
+    margin-top: 4px;
+}
+.indicators table tbody tr { 
+    display: flex; 
+    flex-direction: column; 
+}
+.indicators table tbody tr td { 
+    border: 1px solid black;
+    border-left: none; 
+    height: 42.8px; 
+    width: 20px; 
+    font-size: 13px; 
+    padding-top: 2px; 
+}
